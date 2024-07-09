@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sumerge Test">
+    <test name="Login Tests">
+        <classes>
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="fieldExistTest"/>
+                    <include name="LoginTests"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
